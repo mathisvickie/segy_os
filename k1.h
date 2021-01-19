@@ -1,5 +1,0 @@
-
-void JustVoid(void)
-{
-	return;
-}
