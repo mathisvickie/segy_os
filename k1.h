@@ -1,0 +1,5 @@
+
+void JustVoid(void)
+{
+	return;
+}
