@@ -1,5 +1,0 @@
-
-void DeviceIoControl(void)
-{
-	return;
-}
