@@ -5,6 +5,7 @@ The motivation was to make self-sufficient application that runs from DOS/FREE-D
 
 ## Compiling
 Use nasm to compile with:
+
     nasm -o segyos.com segyos.asm
 
 ## Running
