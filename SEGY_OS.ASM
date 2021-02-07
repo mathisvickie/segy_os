@@ -29,7 +29,6 @@ VBE_MODE equ 0x811B ;1280x1024x4M
 ; 1. Now check CPU and print some its features (if they are supported)
 ; 2. Then set VBE mode and boot to 32-bit PM
 ; 3. Copy kernel to upper memory and jump to it
-; ++ Automaticaly exported and ready for use are functions with "KRNL" prefix
 
 ORG 0x100
 BITS 16
@@ -285,10 +284,10 @@ KERNEL_COPY equ $
 SECTION kernel, vstart=KERNEL_START, valign=0x10
 ALIGN 0x10
     %INCLUDE "AUTORUN.ASM"
-krnl_Halt:
+PM32_HaltKernel:
     cli
     hlt
-    jmp krnl_Halt
+    jmp PM32_HaltKernel
 
 KERNEL_SIZE equ ($-$$+3)>>2
 
