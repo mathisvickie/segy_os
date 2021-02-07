@@ -9,4 +9,4 @@ Use nasm to compile with:
     nasm -o segyos.com segyos.asm
 
 ## Running
-You can use either VM with DOS or download [Rufus](https://rufus.ie/) and flash FREE-DOS on your portable device. In DOS just run segyos.com
+You can use either VM with DOS or download [Rufus](https://rufus.ie/) and flash FREE-DOS on your portable device, then just run segyos.com
