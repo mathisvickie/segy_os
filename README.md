@@ -6,9 +6,9 @@ The motivation was to make self-sufficient application that runs from DOS/FREE-D
 ## Compiling
 Use nasm to compile with:
 
-    nasm -o segyos.com segyos.asm
+    nasm -o segy_os.com segy_os.asm
 
 ## Running
 You can use either VM with DOS or download [Rufus](https://rufus.ie/) and flash FREE-DOS on your portable device, then just run:
 
-    segyos.com
+    segy_os.com
