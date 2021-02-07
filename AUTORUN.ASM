@@ -4,8 +4,12 @@
 ; Mandelbrot fractal
 %INCLUDE "MANDELBR.ASM"
 
-; Julia set
+; Julia fractal zoom
+;%INCLUDE "JULIAZUM.ASM"
+
+; Julia fractal animation
 ;%INCLUDE "JULIASET.ASM"
 
 ; Simple 3D engine from scratch
 ;%INCLUDE "SEGY3D.ASM"
+
