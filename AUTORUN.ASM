@@ -2,7 +2,7 @@
 ; Dont put here actual code, use it as switch between demos
 
 ; Mandelbrot fractal
-%INCLUDE "MANDELBR.ASM"
+;%INCLUDE "MANDELBR.ASM"
 
 ; Julia fractal zoom
 ;%INCLUDE "JULIAZUM.ASM"
@@ -11,5 +11,5 @@
 ;%INCLUDE "JULIASET.ASM"
 
 ; Simple 3D engine from scratch
-;%INCLUDE "SEGY3D.ASM"
-
+%INCLUDE "SEGY3D.ASM"
+

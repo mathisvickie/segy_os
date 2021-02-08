@@ -23,8 +23,8 @@ KERNEL_START equ 0x400000
 KERNEL_STACK equ 0x400000
 
 ; Define video mode, see: https://en.wikipedia.org/wiki/VESA_BIOS_Extensions
-;VBE_MODE equ 0x101 ;640x480x256
-VBE_MODE equ 0x811B ;1280x1024x4M
+VBE_MODE equ 0x101 ;640x480x8bpp
+;VBE_MODE equ 0x811B ;1280x1024x4M
 
 ; 1. Now check CPU and print some its features (if they are supported)
 ; 2. Then set VBE mode and boot to 32-bit PM
